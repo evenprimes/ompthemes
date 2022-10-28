@@ -153,7 +153,7 @@
           "foreground": "#E64747",
           "leading_diamond": "\ue0b6",
           "style": "diamond",
-          "template": "{{ .UserName }} \u276f",
+          "template": "{{ .HostName }} \u276f",
           "trailing_diamond": "\ue0b4",
           "type": "text"
         }
