@@ -6,15 +6,12 @@
       "segments": [
         {
           "background": "#29315A",
-          "foreground": "#3EC669",
+          "foreground": "#E64747",
           "leading_diamond": "\ue0b6",
-          "properties": {
-            "style": "folder"
-          },
           "style": "diamond",
-          "template": "\ue5ff {{ .Path }}",
+          "template": "{{ .HostName }} \u276f",
           "trailing_diamond": "\ue0b4",
-          "type": "path"
+          "type": "text"
         },
         {
           "background": "#29315A",
@@ -103,12 +100,15 @@
         },
         {
           "background": "#29315A",
-          "foreground": "#E64747",
+          "foreground": "#3EC669",
           "leading_diamond": "\ue0b6",
+          "properties": {
+            "style": "folder"
+          },
           "style": "diamond",
-          "template": "{{ .HostName }} \u276f",
+          "template": "\ue5ff {{ .Path }}",
           "trailing_diamond": "\ue0b4",
-          "type": "text"
+          "type": "path"
         }
       ],
       "type": "prompt"
