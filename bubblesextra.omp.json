@@ -96,6 +96,15 @@
       "segments": [
         {
           "background": "#29315A",
+          "foreground": "#775cd8",
+          "leading_diamond": "\ue0b6",
+          "style": "diamond",
+          "template": "{{ if gt .Code 0 }}\uf00d {{ .Meaning }}{{ else }}\uf42e{{ end }} ",
+          "trailing_diamond": "\ue0b4",
+          "type": "exit"
+        },
+        {
+          "background": "#29315A",
           "foreground": "#AEA4BF",
           "leading_diamond": "\ue0b6",
           "properties": {
