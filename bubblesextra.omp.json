@@ -9,7 +9,7 @@
           "foreground": "#fd4cee",
           "leading_diamond": "\ue0b6",
           "style": "diamond",
-          "template": "{{ if eq .Type \"wifi\"}}\uf1eb{{ else if eq .Type \"ethernet\"}}\uf6ff{{ end }}",
+          "template": "{{ if eq .Type \"wifi\"}}\uf1eb .SSID{{ else if eq .Type \"ethernet\"}}\uf6ff{{ end }}",
           "trailing_diamond": "\ue0b4",
           "type": "connection"
         },
@@ -18,7 +18,7 @@
           "foreground": "#E64747",
           "leading_diamond": "\ue0b6",
           "style": "diamond",
-          "template": "{{ .HostName }}",
+          "template": " {{ .HostName }}",
           "trailing_diamond": "\ue0b4",
           "type": "text"
         },
