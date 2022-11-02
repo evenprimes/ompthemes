@@ -69,7 +69,7 @@
           ],
           "leading_diamond": " \ue0b6",
           "properties": {
-            "charged_icon": " ",
+            "charged_icon": "\ue231 ",
             "charging_icon": "\u21e1 ",
             "discharging_icon": "\u21e3 "
           },
