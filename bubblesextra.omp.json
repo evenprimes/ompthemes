@@ -6,10 +6,19 @@
       "segments": [
         {
           "background": "#29315A",
+          "foreground": "#fd4cee",
+          "leading_diamond": "\ue0b6",
+          "style": "diamond",
+          "template": "{{ if eq .Type \"wifi\"}}\uf1eb{{ else if eq .Type \"ethernet\"}}\uf6ff{{ end }}",
+          "trailing_diamond": "\ue0b4",
+          "type": "connection"
+        },
+        {
+          "background": "#29315A",
           "foreground": "#E64747",
           "leading_diamond": "\ue0b6",
           "style": "diamond",
-          "template": "{{ .HostName }} \u276f",
+          "template": "{{ .HostName }}",
           "trailing_diamond": "\ue0b4",
           "type": "text"
         },
@@ -106,7 +115,7 @@
             "style": "folder"
           },
           "style": "diamond",
-          "template": "\ue5ff {{ .Path }}",
+          "template": "\ue5ff {{ .Path }}  \u276f",
           "trailing_diamond": "\ue0b4",
           "type": "path"
         }
