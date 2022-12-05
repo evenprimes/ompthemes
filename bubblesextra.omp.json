@@ -24,7 +24,7 @@
         },
         {
           "type": "os",
-          "foreground": "#26C6DA",
+          "foreground": "#e7571e",
           "background": "#29315A",
           "template": " {{ if .WSL }}WSL at {{ end }}{{.Icon}}\uE0B1",
           "leading_diamond": " \ue0b6",
