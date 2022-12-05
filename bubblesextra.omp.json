@@ -26,7 +26,7 @@
           "type": "os",
           "foreground": "#e7571e",
           "background": "#29315A",
-          "template": " {{ if .WSL }}WSL at {{ end }}{{.Icon}}",
+          "template": "{{ if .WSL }}WSL at {{ end }}{{.Icon}}",
           "leading_diamond": " \ue0b6",
           "style": "diamond",
           "trailing_diamond": "\ue0b4",
