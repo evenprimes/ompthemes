@@ -23,6 +23,18 @@
           "type": "text"
         },
         {
+          "type": "os",
+          "foreground": "#26C6DA",
+          "background": "#29315A",
+          "template": " {{ if .WSL }}WSL at {{ end }}{{.Icon}}\uE0B1",
+          "leading_diamond": " \ue0b6",
+          "style": "diamond",
+          "trailing_diamond": "\ue0b4",
+          "properties": {
+            "macos": "mac"
+          }
+        },
+        {
           "background": "#29315A",
           "foreground": "#43CCEA",
           "foreground_templates": [
